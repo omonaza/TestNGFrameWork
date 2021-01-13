@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FrontEnd Automation]">
+  <test thread-count="5" name="Try(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCase1">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- TestCase1 -->
+    </classes>
+  </test> <!-- Try(failed) -->
+</suite> <!-- Failed suite [FrontEnd Automation] -->

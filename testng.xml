@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FrontEnd Automation">
+    <groups>
+        <run>
+            <include
+                    name="smoke">
+            </include>
+            <include
+                    name="regression">
+
+            </include>
+        </run>
+    </groups>
+    <test name="Try">
+        <parameter name="userName" value="ABC"></parameter>
+        <parameter name="Password" value="ABC"></parameter>
+        <classes>
+            <!--specify the class path/location
+            <class name="TestCase1"></class>
+            <class name="TestCase2"></class>
+            <class name="TestCase3"></class>
+            <class name="dependonMethods"></class>
+           -->
+
+
+            <class name="Parametrization"></class>
+
+        </classes>
+    </test>
+</suite>
